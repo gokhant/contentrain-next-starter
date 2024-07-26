@@ -182,5 +182,23 @@
     },
     "validations": {},
     "fieldType": "relation"
+  },
+  {
+    "name": "homeRelation",
+    "fieldId": "homerelation",
+    "modelId": "blog",
+    "componentId": "one-to-one",
+    "options": {
+      "reference": {
+        "value": true,
+        "form": {
+          "reference": {
+            "value": "homefeatures"
+          }
+        }
+      }
+    },
+    "validations": {},
+    "fieldType": "relation"
   }
 ]
