@@ -218,5 +218,23 @@
     },
     "validations": {},
     "fieldType": "relation"
+  },
+  {
+    "name": "socialLinksRelationMany",
+    "fieldId": "sociallinksrelationmany",
+    "modelId": "blog",
+    "componentId": "one-to-many",
+    "options": {
+      "reference": {
+        "value": true,
+        "form": {
+          "reference": {
+            "value": "sociallinks"
+          }
+        }
+      }
+    },
+    "validations": {},
+    "fieldType": "relation"
   }
 ]
