@@ -2,10 +2,14 @@
   {
     "ID": "f6b0769431b5",
     "createdAt": "2024-08-22T07:05:16.000Z",
-    "updatedAt": "2024-08-22T07:07:18.218Z",
+    "updatedAt": "2024-08-22T07:20:31.809Z",
     "status": "publish",
     "name": "Gokhan Tuna",
     "birthdate": "1978-09-21T07:05:00.000Z",
+    "class": [
+      "40b77385039a",
+      "4749eeb02431"
+    ],
     "scheduled": false
   }
 ]
