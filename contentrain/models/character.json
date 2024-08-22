@@ -80,5 +80,23 @@
     "options": {},
     "validations": {},
     "fieldType": "date"
+  },
+  {
+    "name": "class",
+    "fieldId": "class",
+    "modelId": "character",
+    "componentId": "one-to-many",
+    "options": {
+      "reference": {
+        "value": true,
+        "form": {
+          "reference": {
+            "value": "class"
+          }
+        }
+      }
+    },
+    "validations": {},
+    "fieldType": "relation"
   }
 ]
