@@ -98,5 +98,14 @@
     },
     "validations": {},
     "fieldType": "relation"
+  },
+  {
+    "name": "aliases",
+    "fieldId": "aliases",
+    "modelId": "character",
+    "componentId": "single-line-text",
+    "options": {},
+    "validations": {},
+    "fieldType": "array"
   }
 ]
